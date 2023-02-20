@@ -5,6 +5,4 @@ I found the OpenEVSE software failed to start charging the car and allow >1kW of
 
 This script works around the issue by making a closed loop system that responds to the measured excess grid energy to adjust the pilot signal and does not rely on the pilot signal tracking accuracy. It can also simply turn on/off charging at two different power levels. The script is contrlled by MQTT and will integrate to Domoticz this way using a simple 4 level switch device with (off, 10%, 20%, 30%) settings.
 
-The script uses a Nissan Connect API wrapper class created by Guillame Boudreau here: https://github.com/gboudreau/nissan-connect-php
-
-It also uses my phpSyslog and phpMQTT classes from my repos.
+It uses my phpSyslog and phpMQTT classes from my repos.
