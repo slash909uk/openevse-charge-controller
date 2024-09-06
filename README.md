@@ -1,4 +1,5 @@
 # openevse-charge-controller
+ARCHIVED repo moved to: https://codeberg.org/slash909uk/openevse-charge-controller
 PHP script to manage EV car charging via OpenEVSE / EmonEVSE charge points. Integrates to Domoticz/MQTT and manages solar/excess energy diversion to car battery in place of EmonEVSE software function.
 
 I found the OpenEVSE software failed to start charging the car and allow >1kW of excess energy to spill back into the grid when it did start. This appears to be related to the car rather than the software, which does not respond accurately to the J1772 pilot signal. The software is open-loop and expects the car to track the signal properly so it does not function as expected.
